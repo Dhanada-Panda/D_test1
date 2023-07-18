@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  border: 1px solid grey;
+  padding: 10px;
+}
+nav {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
